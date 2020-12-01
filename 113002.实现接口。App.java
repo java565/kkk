@@ -1,14 +1,12 @@
-package scr;
-public class App  extends R {
-	public static void main(String[] args) {
-    R r = new R();
-    System.out.println(r.boy_filePathString);
-    System.out.println(r.girl_filePathString);
-    for (int i=0;i<r.array2d.length;i++){
-        for (int j=0;j<r.array2d[i].length;j++){
-            System.out.print(r.array2d[i][j]+" ");
-        }
-        System.out.println();
-    }
-}
+package pac;
+public class App extends R {
+public static void main(String[] args) {
+System.out.println(boy_filePath);
+System.out.println(girl_filePath);
+for (int row = 0; row < array2d.length; row++) {
+for (int col = 0; col < array2d[0].length; col++) {
+System.out.print(array2d[row][col]+" ");}
+System.out.println();
+  }
+ }
 }
