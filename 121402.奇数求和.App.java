@@ -1,6 +1,6 @@
 package pac;
 
-public class App3 {
+public class App2 {
 	    public static void main(String[] args) {
 	        long sum = 0;
 	        for (long i = 0;i<=2147483647;i++){
