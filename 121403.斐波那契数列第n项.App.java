@@ -2,7 +2,7 @@ package pac;
 
 import java.util.Scanner;
 
-public class App2 {
+public class App3 {
 
 	    public static void main(String[] args) {
 	        int a=1,b=1,c=0;
